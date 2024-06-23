@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    box-shadow: -2px -2px 5px white, 2px -2px 5px white;
+}
+
+#container > nav {
+    width: 100%;
+    display: flex;
+    max-height: 60px;
+}
+
+#logo {
+    line-height: 60px;
+    font-size: 30px;
+    padding: 0 50px;
+    color: white;
+    width: 40%;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px;
+}
+
+#container > nav > ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+#container > nav > ul > li {
+    line-height: 60px;
+    margin: 0 0px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    min-width: 120px;
+}
+
+#container > nav > ul > li > a {
+    position: relative;
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#container > nav > ul > li:hover {
+    border-bottom: 2px solid white;
+    background-color: #0077ff2d;
+}
+
+#container > nav > ul > .dropdown:hover {
+    border-bottom: none;
+}
+
+#container > nav > ul > .dropdown:hover > .dd {
+    display: block;
+}
+
+.dropdown:hover > a .fa-caret-down {
+    display: none;
+}
+
+#container > nav > ul > li > div {
+    position: absolute;
+    padding: 0 10px;
+    background-color: aliceblue;
+    display: none;
+    min-width: 100px;
+}
+
+#container > nav > ul > li > div > ul {
+    margin: 0px 0 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#up_arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 42%;
+    top: -10px;
+    background-color: aliceblue;
+    transform: rotate(45deg);
+}
+
+#container > nav > ul > li > div > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#container > nav > ul > li > div > ul > li > a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.top a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.top a:hover {
+    text-decoration: underline;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-col .one,
+.two-col .two {
+    display: flex;
+    align-items: center;
+}
+
+.two-col label {
+    margin-left: 5px;
+}
+
+.two-col a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.two-col a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.527), 2px -2px 5px white;
+}
+
+#container > nav {
+  width: 100%;
+  display: flex;
+  max-height: 60px;
+}
+
+#logo {
+  line-height: 60px;
+  font-size: 30px;
+  padding: 0 50px;
+  color: white;
+  text-align: center;
+  width: 40%;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px;
+}
+
+#container > nav > ul {
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+
+#container > nav > ul > li {
+  line-height: 60px;
+  margin: 0 0px;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  min-width: 120px;
+}
+
+#container > nav > ul > li > a {
+  position: relative;
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#container > nav > ul > li:hover {
+  border-bottom: 2px solid white;
+  background-color: #0077ff2d;
+}
+
+#container > nav > ul > .dropdown:hover {
+  border-bottom: none;
+}
+
+#container > nav > ul > .dropdown:hover > .dd {
+  display: block;
+}
+
+.dropdown:hover > a .fa-caret-down {
+  display: none;
+}
+
+#container > nav > ul > li > div {
+  position: absolute;
+  padding: 0 10px;
+  background-color: aliceblue;
+  display: none;
+  min-width: 100px;
+}
+
+#container > nav > ul > li > div > ul {
+  margin: 0px 0 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#up_arrow {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 42%;
+  top: -10px;
+  background-color: aliceblue;
+  transform: rotate(45deg);
+}
+
+#container > nav > ul > li > div > ul > li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#container > nav > ul > li > div > ul > li > a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+  padding: 0 50px;
+}
+.card{
+  display:flex;
+  justify-content: center;
+  width:400px;
+  height:400px;
+border: 2.2px solid rgba(1, 1, 12, 0.868);
+}
+.card img{
+  width: 400px;
+  height: 400px;
+border: 0cap;
+}
+.gallery  h2{ 
+  color: crimson;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+
+.gpi img{
+ width:350px;
+ height:350px;
+ border-radius: solid rgba(0, 0, 0, 0.473) 2px;
+}

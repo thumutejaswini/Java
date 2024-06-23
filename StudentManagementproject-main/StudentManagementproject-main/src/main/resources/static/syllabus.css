@@ -1,0 +1,28 @@
+
+.bo{
+
+  height:100vh;
+  display:flex;
+  align-items:center;
+  background-color:#000080;
+}
+
+button{
+  padding:18px 50px;
+  margin:20px;
+font-size:1em;
+font-family:sans-serif;
+font-weight:bold;
+cursor:pointer;
+border:none;
+}
+.exam:hover{
+   background-color:#D3D3D3;
+}
+.he{
+color:white;
+padding-top:1rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+text-align: center;
+}
